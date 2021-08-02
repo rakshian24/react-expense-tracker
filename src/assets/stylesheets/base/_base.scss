@@ -22,14 +22,24 @@ a {
   text-decoration: none;
 }
 
+$desktop-app-width: 70%;
+$mobile-app-width: 90%;
+
 .app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $app-background-color;
+  padding-top: 2rem;
+}
+
+.app-container {
   min-height: 100vh;
   margin: auto;
-  width: 70%;
+  width: $desktop-app-width;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .app {
-    width: 90%;
+  .app-container {
+    width: $mobile-app-width;
   }
 }

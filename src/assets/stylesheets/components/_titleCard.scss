@@ -1,14 +1,14 @@
 .title-card {
-  background-color: #0468bf;
+  background-color: $primary-color;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  margin-top: 2rem;
-  color: #fff;
+  color: #161d32;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  box-shadow: 0 1px 2px 0 #22216e;
+  box-shadow: 0 1px 2px 0 $primary-color-box-shadow;
+  margin-bottom: 1.5rem;
   .title {
     font-size: 2em;
   }

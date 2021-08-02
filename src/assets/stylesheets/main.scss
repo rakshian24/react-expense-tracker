@@ -1,3 +1,8 @@
+//variables
+@import 'variables/colors.scss';
+
+//base styles
 @import 'base/base';
 
-@import 'components/titleCard', 'components/customButton';
+//components
+@import 'components/titleCard', 'components/customButton', 'components/appBody';

@@ -8,19 +8,19 @@
 }
 
 .btn-primary {
-  background-color: #022859;
-  color: #fff;
-  border: 1px solid #022859;
-  box-shadow: 0 1px 2px 0 #022859;
+  background-color: $secondary-color;
+  color: $dark;
+  border: 1px solid $secondary-color;
+  box-shadow: 0 1px 2px 0 $secondary-color;
 }
 
 .btn-primary:hover {
-  background-color: #02285998;
+  background-color: $secondary-color-hover;
 }
 
 .btn-secondary {
   border: 1px solid #fff;
-  background-color: #022859;
+  background-color: $secondary-color;
 }
 
 .btn-circle {
@@ -30,10 +30,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #022859;
-  color: #fff;
+  background-color: $secondary-color;
+  color: $dark;
 }
 
 .btn-circle:hover {
-  background-color: #02285998;
+  background-color: $secondary-color-hover;
 }
