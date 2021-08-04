@@ -5,8 +5,6 @@ import CustomButton from './CustomButton';
 
 const TitleCard = ({ title }) => {
   const { width } = useWindowSize();
-  console.log('WIDTH = ', width);
-
   return (
     <div className="title-card">
       <div className="title">{title}</div>

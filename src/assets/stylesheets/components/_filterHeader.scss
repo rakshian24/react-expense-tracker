@@ -1,0 +1,12 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .select-container {
+    flex: 0.2;
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      flex: 0.8;
+    }
+  }
+}
